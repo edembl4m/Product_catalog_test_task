@@ -1,5 +1,5 @@
 let cards = document.querySelectorAll('.catalog__card');
-let bottom = document.querySelectorAll('.bottom');
+let bottom = document.querySelectorAll('.catalog__card-bottom');
 
 
 for(let i = 0; i < cards.length; i++) {
