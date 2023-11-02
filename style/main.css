@@ -90,6 +90,7 @@ h2, h3, h4, p {
     width: 100%;
     height: 444px;
     z-index: 100;
+    position: relative;
 }
 
 .catalog__card:hover .catalog__card-img {
@@ -219,14 +220,19 @@ h2, h3, h4, p {
         width: 33.3%;
     }
 
-    .catalog__card-favorites {
-        top: 75%;
+    .catalog__card-head {
+        position: relative;
     }
 
     .catalog__card-img {
-        height: 85%;
+        height: 100%;
+        position: relative;
     }
-    
+
+    .catalog__card-favorites {
+        top: 90%;
+    }
+
     .catalog__card-title {
         width: 100%;
     }
@@ -290,20 +296,22 @@ h2, h3, h4, p {
         position: relative;
     }
 
+    .catalog__card-head {
+        position: relative;
+    }
+
+    .catalog__card-img {
+        height: 100%;
+        position: relative;
+    }
+
     .catalog__card-favorites {
-        background: url('../img/favorites.svg') center no-repeat;
-        height: 20.68px;
-        width: 24.61px;
-        z-index: 101;
-        position: absolute;
-        right: 16px;
-        top: 75%;
-        cursor: pointer;
+        top: 90%;
     }
 
     .catalog__card-img {
         width: 100%;
-        height: 85%;
+        height: 100%;
         z-index: 100;
     }
     
@@ -382,21 +390,19 @@ h2, h3, h4, p {
     }
 
     .catalog__card-favorites {
-        background: url('../img/favorites.svg') center no-repeat;
-        height: 20.68px;
-        width: 24.61px;
-        z-index: 101;
-        position: absolute;
         right: 16px;
-        top: 70%;
-        bottom: 91px;
-        cursor: pointer;
+        top: 90%;
     }
 
     .catalog__card-img {
         width: 100%;
-        height: 85%;
+        height: 100%;
         z-index: 100;
+    }
+
+    .catalog__card-head {
+        height: 85%;
+        position: relative;
     }
     
     .catalog__card-info {
@@ -422,7 +428,7 @@ h2, h3, h4, p {
     }
 
     .catalog__card-bottom {
-        padding: 9px 10px 10px 11px;
+        padding: 9px 10px 10px 9px;
         width: 100%;
         margin-top: -48px;
     }
@@ -457,7 +463,28 @@ h2, h3, h4, p {
 @media screen and (min-width: 0px) and (max-width: 466px) {
 
     .catalog__card:hover .catalog__card-bottom {
-        bottom: -70px;
+        bottom: -50px;
+    }
+
+    .catalog__card-bottom {
+        padding: 9px 10px 10px 9px;
+    }
+    
+    .catalog__card-bottom-size-label {
+        font-size: 11px;
+        color: #818181;
+        line-height: 16px;
+        letter-spacing: 4%;
+    }
+    
+    .catalog__card-bottom-size-value {
+        font-weight: 500;
+    }
+    
+    .catalog__card-btn {
+        font-size: 12px;
+        width: 60px;
+        height: 30px;
     }
 
 }
