@@ -1,6 +1,6 @@
-const observer = lozad('.catalog__card-img', {
+const observer = lozad('.lozad', {
     loaded: function(el) {
-        el.classList.add('loaded'); // Добавьте класс, если изображение загружено
+        el.classList.add('loaded');
     }
 });
 observer.observe();
