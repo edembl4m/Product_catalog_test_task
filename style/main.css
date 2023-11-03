@@ -130,7 +130,7 @@ h2, h3, h4, p {
     line-height: 24px;
 }
 
-.catalog__card-old {
+.catalog__card-old-price {
     font-size: 12px;
     line-height: 24px;
     text-decoration: line-through;
@@ -203,7 +203,6 @@ h2, h3, h4, p {
     }
 
     .catalog__card {
-        background-color: #fff;
         width: 332px;
     }
 
@@ -251,7 +250,6 @@ h2, h3, h4, p {
         visibility: hidden;
         margin-top: -48px;
         position: absolute;
-        background-color: #fff;
         box-sizing: border-box;
         z-index: 100;
         display: none;
@@ -268,7 +266,6 @@ h2, h3, h4, p {
     
     .catalog__card-bottom-size-label {
         font-size: 14px;
-        color: #818181;
         line-height: 16px;
         letter-spacing: 4%;
     }
@@ -288,7 +285,6 @@ h2, h3, h4, p {
     }
 
     .catalog__card {
-        background-color: #fff;
         width: 50%;
         margin-bottom: 32px;
         display: flex;
@@ -325,7 +321,6 @@ h2, h3, h4, p {
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 4%;
-        color: #2D2D2D;
     }
     
     .catalog__card-price {
@@ -333,7 +328,6 @@ h2, h3, h4, p {
         font-size: 14px;
         margin-top: 6px;
         margin-bottom: 6px;
-        color: #D01345;
         line-height: 24px;
     }
 
@@ -344,7 +338,6 @@ h2, h3, h4, p {
         visibility: hidden;
         margin-top: -48px;
         position: absolute;
-        background-color: #fff;
         box-sizing: border-box;
         z-index: 100;
         display: none;
@@ -361,7 +354,6 @@ h2, h3, h4, p {
     
     .catalog__card-bottom-size-label {
         font-size: 14px;
-        color: #818181;
         line-height: 16px;
         letter-spacing: 4%;
     }
@@ -381,7 +373,6 @@ h2, h3, h4, p {
     }
 
     .catalog__card {
-        background-color: #fff;
         width: 50%;
         margin-bottom: 32px;
         display: flex;
@@ -415,7 +406,6 @@ h2, h3, h4, p {
         font-weight: 400;
         line-height: 20px;
         letter-spacing: 4%;
-        color: #2D2D2D;
     }
     
     .catalog__card-price {
@@ -423,7 +413,6 @@ h2, h3, h4, p {
         font-size: 14px;
         margin-top: 6px;
         margin-bottom: 6px;
-        color: #D01345;
         line-height: 24px;
     }
 
@@ -472,7 +461,6 @@ h2, h3, h4, p {
     
     .catalog__card-bottom-size-label {
         font-size: 11px;
-        color: #818181;
         line-height: 16px;
         letter-spacing: 4%;
     }
